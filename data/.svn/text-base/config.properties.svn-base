@@ -1,0 +1,85 @@
+#---
+#Setup properties
+
+#fullscreen or window mode (true for fullscreen, false for window)
+fullscreen = true
+
+#canvas dimension when in window mode (pixels)
+frame.width = 1280
+frame.height = 720
+
+#background color (ARGB)
+background.color = FFFFFFFF
+
+#enable tuio
+tuio.enable = true
+
+#port of the tuio connection
+tuio.port = 3333
+
+#multisampling detail level
+smooth.level = 6
+
+#---
+#Debug properties
+
+#show debug layer on launch (true to show layer, false to hide)
+debug = true
+
+#show menu layer on launch (true to show layer, false to hide)
+menu = false
+#---
+
+#---
+#Background Text properties
+
+#font (filename without .ttf extension)
+bg.text.font = SalvoSerif-Bold
+
+#font size in pixels
+#bg.text.font.size = 300
+bg.text.font.size = 400
+
+#fill color of the text (ARGB)
+bg.text.fill.color = FFFFFFFF
+
+#stroke color of the text (ARGB)
+bg.text.stroke.color = FF000000
+
+#text flicker speed (the higher the faster it flickers)
+bg.flicker.speed = 0.2
+
+#probability that the background text will be visible (0 = always hidden, 1 = always visible)
+bg.flicker.probability = 0.425
+
+#---
+
+#---
+#Scrolling Text properties
+
+#file with the text content
+scroll.text.files = wewerethree.txt,loremipsum.txt
+
+#font (filename without .ttf extension)
+scroll.text.font = SalvoSerif-Bold
+
+#font size in pixels
+scroll.text.font.size = 36
+
+#color of the text (ARGB)
+scroll.text.color = FF000000
+
+#duration of the audio (cross)fade in in milliseconds
+scroll.audio.fade.in.duration = 2000
+
+#duration of the audio fade out in milliseconds
+scroll.audio.fade.out.duration = 500
+
+#---
+#Blood properties
+
+#mass of blood at maximum (between 0.1 and 10ish)
+blood.mass = 0.8
+
+#multiplier to define when blood starts (0 = starts right away, 1 = starts when activity is at maximum)
+blood.start = 0.75
